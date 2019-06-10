@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="150719" started-at="2019-06-09T19:39:30Z" finished-at="2019-06-09T19:42:01Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="150719" started-at="2019-06-09T19:39:30Z" finished-at="2019-06-09T19:42:01Z">
+      <class name="planit_poc.tests.WebShopPlaceBooksOrder">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:planit_poc.tests.WebShopPlaceBooksOrder@14acaea5]" name="beforeMethod" is-config="true" duration-ms="81305" started-at="2019-06-10T01:09:33Z" finished-at="2019-06-10T01:10:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ValidatePlacingBooksOrderFunctionality(java.util.HashMap)[pri:0, instance:planit_poc.tests.WebShopPlaceBooksOrder@14acaea5]" name="ValidatePlacingBooksOrderFunctionality" duration-ms="63097" started-at="2019-06-10T01:10:55Z" description="Login To WebShop Application and order the Book Item by providing shipping address, billing address and payment method details." data-provider="getInputData" finished-at="2019-06-10T01:11:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{CountryId=India, ShippingMethod=Next Day Air, UserName=atest@gmail.com, Email=atest@gmail.com, Categories=Book, FirstName=atest, BilingAddress=New Address, Quantity=2, City=Hyderabad, Address1=FalknamaDas, ZipPostalCode=502270, ShippingAddress=Billing Address, PhoneNumber=9704517532, PaymentMethod=CashOnDelivery, LastName=poc, ItemToBeSelected=Fiction, Password=123456}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatePlacingBooksOrderFunctionality -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:planit_poc.tests.WebShopPlaceBooksOrder@14acaea5]" name="teardown" is-config="true" duration-ms="1430" started-at="2019-06-10T01:11:58Z" finished-at="2019-06-10T01:11:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidatePlacingBooksOrderFunctionality status=SUCCESS method=WebShopPlaceBooksOrder.ValidatePlacingBooksOrderFunctionality(java.util.HashMap)[pri:0, instance:planit_poc.tests.WebShopPlaceBooksOrder@14acaea5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:planit_poc.tests.WebShopPlaceBooksOrder@14acaea5]" name="tearDown" is-config="true" duration-ms="1907" started-at="2019-06-10T01:11:59Z" finished-at="2019-06-10T01:12:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- planit_poc.tests.WebShopPlaceBooksOrder -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
